@@ -1,0 +1,24 @@
+{
+  "name": "productexhibit-nothing",
+  "version": "1.0.0",
+  "description": "Introduce the well known Nothing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evolentDelight/ProductExhibit-Nothing.git"
+  },
+  "author": "BK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evolentDelight/ProductExhibit-Nothing/issues"
+  },
+  "homepage": "https://github.com/evolentDelight/ProductExhibit-Nothing#readme",
+  "dependencies": {
+    "gatsby": "^2.24.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
