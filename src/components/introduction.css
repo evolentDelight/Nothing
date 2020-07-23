@@ -1,0 +1,30 @@
+.introduction-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.textStyle {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px;
+  padding: 5vh 0;
+  font-size: clamp(16px, 5vw, 48px);
+}
+
+.reveal {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 3500ms;
+}
