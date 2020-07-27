@@ -1,25 +1,15 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { CSSTransition } from "react-transition-group"
 import "./introduction.css"
 
 export default function Introduction() {
   const [fadeIn, setFadeIn] = useState(false)
-  const [initial, setInitial] = useState(true)
+  const [initial, setInitial] = useState(false)
 
-  //Add a scroll toggle to trigger the animation
-  window.addEventListener("scroll", () => {
-    const element = document
-      .getElementsByClassName("nav-flexbox")[0]
-      .getBoundingClientRect()
-    console.log("Introduction -> element.bottom", element.bottom)
-    if (element.bottom <= 250) {
-      setFadeIn(true)
-      setInitial(true)
-    }
-    if (element.bottom >= 500) {
-      setFadeIn(false)
-    }
-  })
+  useEffect(() => {
+    setFadeIn(true)
+    setInitial(true)
+  }, [])
 
   return (
     <div className="introduction-container textStyle">

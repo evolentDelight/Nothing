@@ -1,6 +1,5 @@
 import React from "react"
 import "./nav.css"
-//import css
 
 export default function Nav() {
   return (
@@ -8,13 +7,16 @@ export default function Nav() {
       <nav className="nav-flexbox">
         <div className="company">
           <a href="/">
-            <strong>Nobody</strong>
+            <strong><em>Nobody</em></strong>
           </a>
         </div>
         <div className="features">
-          <a href="/">a</a>
-          <a href="/">b</a>
-          <a href="/">c</a>
+          <a href="/">Explore</a>
+          <span class="nav-features-space"> </span>
+          <a href="/">Support</a>
+          <span class="nav-features-space"> </span>
+          <a href="/">Author</a>
+          <span class="nav-features-space"> </span>
         </div>
       </nav>
     </div>
