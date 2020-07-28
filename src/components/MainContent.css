@@ -1,17 +1,25 @@
-@import "../../node_modules/animate.css/animate.css";
+/* @import "../../node_modules/animate.css/animate.css"; */
 
 .container-main{
   text-align: center;
   background-color: black;
-  border: 1vw solid white;
+  border: 1.25vw solid white;
 
   color: white;
   font-size: 7.5vw;
 
-  padding: 5vh;
+  padding: 5.5vw;
 }
 
-.slideIn-enter{
+.reveal{
+  opacity: 1;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.slideIn, .slideIn-enter{
   opacity: 0;
 }
 
