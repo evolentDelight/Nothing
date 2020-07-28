@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/evolentDelight/ProductExhibit-Nothing#readme",
   "dependencies": {
+    "animate.css": "^4.1.0",
     "gatsby": "^2.24.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

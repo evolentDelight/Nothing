@@ -12,11 +12,11 @@ export default function Nav() {
         </div>
         <div className="features">
           <a href="/">Explore</a>
-          <span class="nav-features-space"> </span>
+          <span className="nav-features-space"> </span>
           <a href="/">Support</a>
-          <span class="nav-features-space"> </span>
+          <span className="nav-features-space"> </span>
           <a href="/">Author</a>
-          <span class="nav-features-space"> </span>
+          <span className="nav-features-space"> </span>
         </div>
       </nav>
     </div>
