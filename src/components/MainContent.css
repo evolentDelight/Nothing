@@ -1,0 +1,24 @@
+@import "../../node_modules/animate.css/animate.css";
+
+.container-main{
+  text-align: center;
+  background-color: black;
+  border: 1vw solid white;
+
+  color: white;
+  font-size: 7.5vw;
+
+  padding: 5vh;
+}
+
+.slideIn-enter{
+  opacity: 0;
+}
+
+.slideIn-enter-active{
+  animation: slideInDown;
+  animation-duration: 2s;
+
+  opacity: 1;
+  transition: opacity 3000ms;
+}
