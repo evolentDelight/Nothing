@@ -1,13 +1,13 @@
 .container{
   background-color: #E8E8E8;
   font-family: 'Red Rose', cursive, "Times New Romans";
-  font-size: clamp(25px, 2.5vw, 35px);
+  font-size: clamp(17px, 2.5vw, 35px);
   color: #FAF7FF;
 }
 
 .nav-flexbox{
   display: flex;
-  flex-wrap: nowrap;;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
