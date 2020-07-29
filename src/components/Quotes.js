@@ -30,7 +30,7 @@ export default function Quotes() {
   return (
     <div className="quotes-container">
       <div className="arrowbox">
-        <div className="leftarrow" role="button" onClick={() => handleLeftArrow()}>
+        <div className="leftarrow" role="button" tabIndex="0" onClick={() => handleLeftArrow()}>
           🛆
         </div>
       </div>
@@ -43,7 +43,7 @@ export default function Quotes() {
         </CSSTransition>
       </div>
       <div className="arrowbox">
-        <div className="rightarrow" role="button" onClick={() => handleRightArrow()}>
+        <div className="rightarrow" role="button" tabIndex="0" onClick={() => handleRightArrow()}>
           🛆
         </div>
       </div>
