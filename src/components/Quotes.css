@@ -1,0 +1,46 @@
+.leftarrow, .rightarrow{
+  padding: 0 clamp(12.5px, 2.5vw, 22.5px);
+
+  transition: 0.1s ease-in-out;
+}
+
+.leftarrow:hover, .rightarrow:hover{
+  cursor: pointer;
+
+  box-shadow: 0 0 10px gray;
+  text-shadow: 0 0 1px black;
+}
+
+.leftarrow{
+  transform: rotate(-90deg);
+  border: 1px solid;
+
+}
+
+.rightarrow{
+  transform: rotate(90deg);
+  border: 1px solid;
+}
+
+.quotes-container{
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-evenly;
+
+  
+}
+
+.arrowbox{
+  flex-grow: 0;
+
+  align-self: center;
+
+  font-size: clamp(50px, 10vw, 100px);
+}
+
+.quotes-box{
+  flex-grow: 4;
+  margin: 10vw 2.5vw;
+  font-size: clamp(16px, 3vw, 35px);
+}

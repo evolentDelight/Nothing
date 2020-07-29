@@ -3,12 +3,12 @@
 .container-main{
   text-align: center;
   background-color: black;
-  border: 1.25vw solid white;
+  border: clamp(5px, 1.25vw, 10px) solid white;
 
   color: white;
-  font-size: 7.5vw;
+  font-size: clamp(37.5px, 7.5vw, 87.75px);
 
-  padding: 5.5vw;
+  padding: clamp(37.5px, 5.5vw, 62.5px);
 }
 
 .reveal{

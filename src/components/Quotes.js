@@ -1,0 +1,52 @@
+import React, { useState } from "react"
+import { CSSTransition } from "react-transition-group"
+import quotes from "../res/quotes"
+import "./Quotes.css"
+
+export default function Quotes() {
+  //HandPicked Relevant Quotes
+  //Maybe MongoDB as storage and extraction
+  const [index, setIndex] = useState(0)
+
+  const quotearray = quotes()
+
+
+  function handleLeftArrow() {
+    if (index === 0) {
+      setIndex(Object.keys(quotearray).length - 1)
+    } else {
+      setIndex(index - 1)
+    }
+  }
+
+  function handleRightArrow() {
+    if (index === Object.keys(quotearray).length - 1) {
+      setIndex(0)
+    } else {
+      setIndex(index + 1)
+    }
+  }
+
+  return (
+    <div className="quotes-container">
+      <div className="arrowbox">
+        <div className="leftarrow" onClick={() => handleLeftArrow()}>
+          🛆
+        </div>
+      </div>
+      <div className="quotes-box">
+        <CSSTransition timeout={3500}>
+          <div>
+            <p>{quotearray[index].quote}</p>
+            <h3>-{quotearray[index].name}</h3>
+          </div>
+        </CSSTransition>
+      </div>
+      <div className="arrowbox">
+        <div className="rightarrow" onClick={() => handleRightArrow()}>
+          🛆
+        </div>
+      </div>
+    </div>
+  )
+}
