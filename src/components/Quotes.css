@@ -1,0 +1,41 @@
+.leftarrow, .rightarrow{
+  padding: 0 2.5vw;
+}
+
+.leftarrow:hover, .rightarrow:hover{
+  cursor: pointer;
+}
+
+.leftarrow{
+  transform: rotate(-90deg);
+  border: 1px solid;
+
+}
+
+.rightarrow{
+  transform: rotate(90deg);
+  border: 1px solid;
+}
+
+.quotes-container{
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-evenly;
+
+  
+}
+
+.arrowbox{
+  flex-grow: 0;
+
+  align-self: center;
+
+  font-size: clamp(50px, 10vw, 100px);
+}
+
+.quotes-box{
+  flex-grow: 4;
+  margin: 10vw 2.5vw;
+  font-size: clamp(16px, 3vw, 35px);
+}
