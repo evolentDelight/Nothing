@@ -22,18 +22,18 @@
   border: 1px solid;
 }
 
-.quotes-container{
+.container-quotes{
   display: flex;
   flex-wrap: nowrap;
   text-align: center;
   justify-content: space-evenly;
 
 
-  height: 40vw;
+  height: clamp(25px, 40vw, 450px);
   box-sizing: border-box;
 }
 
-.arrowbox{
+.box-arrow{
   flex-grow: 0;
 
   align-self: center;
@@ -41,8 +41,8 @@
   font-size: clamp(50px, 10vw, 100px);
 }
 
-.quotes-box{
+.box-quotes{
   flex-grow: 4;
-  margin: 10vw 2.5vw;
+  margin: clamp(0px, 10vw, 125px) clamp(0px, 2.5vw, 30px);
   font-size: clamp(16px, 3vw, 35px);
 }

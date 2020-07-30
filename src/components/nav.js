@@ -3,7 +3,7 @@ import "./nav.css"
 
 export default function Nav() {
   return (
-    <div className="container">
+    <div className="container-nav">
       <nav className="nav-flexbox">
         <div className="company">
           <a href="/">

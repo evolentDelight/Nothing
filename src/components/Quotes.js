@@ -28,13 +28,13 @@ export default function Quotes() {
   }
 
   return (
-    <div className="quotes-container">
-      <div className="arrowbox">
+    <div className="container-quotes">
+      <div className="box-arrow">
         <div className="leftarrow" role="button" tabIndex="0" onClick={() => handleLeftArrow()}>
           🛆
         </div>
       </div>
-      <div className="quotes-box">
+      <div className="box-quotes">
         <CSSTransition timeout={3500}>
           <div>
             <p><em>{quotearray[index].quote}</em></p>
@@ -42,7 +42,7 @@ export default function Quotes() {
           </div>
         </CSSTransition>
       </div>
-      <div className="arrowbox">
+      <div className="box-arrow">
         <div className="rightarrow" role="button" tabIndex="0" onClick={() => handleRightArrow()}>
           🛆
         </div>
