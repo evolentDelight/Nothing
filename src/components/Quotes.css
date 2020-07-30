@@ -28,7 +28,9 @@
   text-align: center;
   justify-content: space-evenly;
 
-  
+
+  height: 40vw;
+  box-sizing: border-box;
 }
 
 .arrowbox{

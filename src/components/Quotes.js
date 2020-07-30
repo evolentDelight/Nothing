@@ -37,7 +37,7 @@ export default function Quotes() {
       <div className="quotes-box">
         <CSSTransition timeout={3500}>
           <div>
-            <p>{quotearray[index].quote}</p>
+            <p><em>{quotearray[index].quote}</em></p>
             <h3>-{quotearray[index].name}</h3>
           </div>
         </CSSTransition>

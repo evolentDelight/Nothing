@@ -4,6 +4,6 @@ body {
   padding: 0;
 }
 
-#pad{
-  padding: 100000px;
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
