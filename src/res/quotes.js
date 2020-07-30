@@ -11,6 +11,10 @@ export default function quotes(){
         "“I am the wisest man alive, for I know one thing, and that is that I know nothing.”",
     },
     {
+      name: "Socrates",
+      quote: "“The only true wisdom is in knowing you know nothing.”"
+    },
+    {
       name: "Oscar Wilde",
       quote:
         "“I love to talk about nothing. It's the only thing I know anything about.”",

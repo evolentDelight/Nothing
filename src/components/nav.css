@@ -1,4 +1,4 @@
-.container{
+.container-nav{
   background-color: #E8E8E8;
   font-family: 'Red Rose', cursive, "Calibri";
   font-size: clamp(17px, 2.5vw, 35px);
@@ -22,10 +22,4 @@ a{
   padding: 0 1vw;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
-
-  /*box-shadow: 2px 2px 4px;*/
 }
-
-/* a:hover{
-  
-} */

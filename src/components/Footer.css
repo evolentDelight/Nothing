@@ -1,0 +1,15 @@
+.footer-container{
+  box-sizing: border-box;
+
+  height: clamp(0px, 25vw, 325px);
+  background-color: #2A272A;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox{
+  font-size: clamp(25px, 5vw, 64px);
+  color: white;
+}

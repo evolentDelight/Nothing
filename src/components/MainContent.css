@@ -6,9 +6,9 @@
   border: clamp(5px, 1.25vw, 10px) solid white;
 
   color: white;
-  font-size: clamp(37.5px, 7.5vw, 87.75px);
+  font-size: clamp(25px, 7.5vw, 87.75px);
 
-  padding: clamp(65px, 5.5vw, 62.5px);
+  padding: clamp(25px, 5.5vw, 62.5px);
 }
 
 .reveal{

@@ -9,7 +9,7 @@ export default function Topic(){
   const handleAnimationEvent = useCallback(() =>{
     const element = document.getElementsByClassName("container-main")[0].getBoundingClientRect();
 
-    if(element.bottom <= 250){
+    if(element.bottom <= 350){
       Animate(true);
       window.removeEventListener("scroll", handleAnimationEvent)
     }
@@ -22,13 +22,13 @@ export default function Topic(){
   }, [handleAnimationEvent])
 
   return(
-    <div className="topic-container">
+    <div className="container-topic">
       <div className="text">
         <p>Human<br></br> Concept<br></br> of<br></br> Nothing</p>
       </div>
       <div className="model">
         <CSSTransition in={isAnimated} classNames="slideInLeft" timeout={3500}>
-          <div className={`box ${isAnimated ? `reveal` : `hidden`}`}></div>
+          <div className={`box-topic ${isAnimated ? `reveal` : `hidden`}`}></div>
         </CSSTransition>
       </div>
     </div>
