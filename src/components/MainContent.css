@@ -8,7 +8,7 @@
   color: white;
   font-size: clamp(37.5px, 7.5vw, 87.75px);
 
-  padding: clamp(37.5px, 5.5vw, 62.5px);
+  padding: clamp(65px, 5.5vw, 62.5px);
 }
 
 .reveal{

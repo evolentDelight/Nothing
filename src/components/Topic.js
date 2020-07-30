@@ -24,7 +24,7 @@ export default function Topic(){
   return(
     <div className="topic-container">
       <div className="text">
-        <p>Human's<br></br> Concept<br></br> of<br></br> Nothing</p>
+        <p>Human<br></br> Concept<br></br> of<br></br> Nothing</p>
       </div>
       <div className="model">
         <CSSTransition in={isAnimated} classNames="slideInLeft" timeout={3500}>
