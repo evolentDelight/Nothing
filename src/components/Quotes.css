@@ -5,6 +5,10 @@
   z-index: 1;
 }
 
+::selection{
+  background: #FFF;
+}
+
 .leftarrow:hover, .rightarrow:hover{
   cursor: pointer;
 
