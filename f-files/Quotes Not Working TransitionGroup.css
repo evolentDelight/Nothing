@@ -1,0 +1,87 @@
+.leftarrow, .rightarrow{
+  padding: 0 clamp(5px, 2.5vw, 22.5px);
+
+  transition: 0.5s ease-in-out;
+}
+
+.leftarrow:hover, .rightarrow:hover{
+  cursor: pointer;
+
+  box-shadow: 0 0 10px gray;
+  text-shadow: 0 0 1px black;
+}
+
+.leftarrow{
+  transform: rotate(-90deg);
+  border: 1px solid;
+
+}
+
+.rightarrow{
+  transform: rotate(90deg);
+  border: 1px solid;
+}
+
+.container-quotes{
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-evenly;
+
+
+  height: clamp(35px, 42.5vw, 450px);
+  box-sizing: border-box;
+}
+
+.box-arrow{
+  flex-grow: 0;
+
+  align-self: center;
+
+  font-size: clamp(16px, 10vw, 100px);
+}
+
+.box-quotes{
+  flex-grow: 4;
+  /* margin: clamp(0px, 10vw, 125px) clamp(0px, 2.5vw, 30px); */
+  margin: clamp(10px, 5.5vw, 125px) clamp(0px, 2.5vw, 30px) clamp(10px, 5.5vw, 125px) clamp(0px, 2.5vw, 30px);
+  align-self: center;
+  font-size: clamp(13.5px, 3vw, 35px);
+}
+
+.fadeLeft-enter{
+  animation: fadeInRight;
+  animation-duration: 0.5s;
+}
+
+.fadeLeft-enter-active{
+  animation-duration: 0.5s;
+}
+
+.fadeLeft-exit{
+  animation: fadeOutLeft;
+  animation-duration: 0.5s;
+}
+
+.fadeLeft-exit-active{
+  animation-duration: 0.5s;
+}
+
+.fadeRight-enter{
+  animation: fadeInLeft;
+  animation-duration: 0.5s;
+
+}
+
+.fadeRight-enter-active{
+  animation-duration: 0.5s;
+}
+
+.fadeRight-exit{
+  animation: fadeOutRight;
+  animation-duration: 0.5s;
+}
+
+.fadeRight-exit-active{
+  animation-duration: 0.5s;
+}
