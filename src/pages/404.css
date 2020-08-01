@@ -1,0 +1,16 @@
+.container-error{
+  background-color: #2A272A;
+  color: white;
+
+  border: 5px solid white;
+
+  box-sizing: border-box;
+
+  height: 89vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+} 
