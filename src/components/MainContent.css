@@ -3,7 +3,7 @@
 .container-main{
   text-align: center;
   background-color: black;
-  border: /*clamp(5px, 1.25vw, 10px)*/7.5px solid white;
+  border: clamp(5px, 1.25vw, 10px) solid white;
 
   color: white;
   font-size: clamp(25px, 7.5vw, 87.75px);
