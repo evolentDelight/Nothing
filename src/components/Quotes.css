@@ -5,7 +5,7 @@
   z-index: 1;
 }
 
-::selection{
+.leftarrow::selection, .rightarrow::selection{
   background: #FFF;
 }
 
