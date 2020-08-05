@@ -36,6 +36,8 @@
 
   height: clamp(35px, 42.5vw, 450px);
   box-sizing: border-box;
+
+  overflow-x: hidden;/*Remove whitespace-adding effect required by Animate.css*/
 }
 
 .box-arrow{
