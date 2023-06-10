@@ -19,7 +19,7 @@
   "homepage": "https://github.com/evolentDelight/ProductExhibit-Nothing#readme",
   "dependencies": {
     "animate.css": "^4.1.0",
-    "gatsby": "^2.24.2",
+    "gatsby": "^4.25.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-transition-group": "^4.4.1"
